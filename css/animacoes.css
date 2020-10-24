@@ -1,7 +1,7 @@
 @keyframes up{
     from{
         opacity: 0;
-        transform: translateY(15px);
+        transform: translateY(135px);
     }
 
     to{
