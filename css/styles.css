@@ -64,6 +64,7 @@
 
 #bio-container p {
     margin-bottom: 20px;
+    animation-delay: 50ms;
 }
 
 #bio-container img {
@@ -71,6 +72,7 @@
     height: 175px;
     border-radius: 50%;
     margin-bottom: 25px;
+    
 }
 
 #social-container {
@@ -80,16 +82,20 @@
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 25px;
     padding-bottom: 25px;
+    animation-delay: 100ms;
+   
 }
 
 #social-container li {
     flex: 1 1 0;
     max-width: 60px;
+   
 }
 
 #social-container li a {
     color: var(--main-color);
     font-size: 30px;
+    
 }
 
 #email-container {
